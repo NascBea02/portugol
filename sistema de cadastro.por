@@ -2,10 +2,11 @@ programa {
 
   inclua biblioteca Util
 
+     cadeia opcao, nome_cliente
+     inteiro idade
+
   funcao inicio() {
 
-   cadeia opcao, nome_cliente
-   inteiro idade
 
     limpa()
     escreva(".******************************************.\n")
@@ -17,7 +18,7 @@ programa {
     escreva(" 3 - Sair do sistema\n")
 
      escreva("********************************************\n")
-     escreva("Opção desejada: ")
+     escreva("OpÃ§Ã£o desejada: ")
      leia(opcao)
 
      escolha(opcao)
@@ -33,8 +34,8 @@ programa {
           leia(idade)
 
           limpa()
-          //Exibe mensagem de usuário cadastrado com sucesso
-          escreva("AVISO: Usuário cadastrado com sucesso!")
+          //Exibe mensagem de usuÃ¡rio cadastrado com sucesso
+          escreva("AVISO: UsuÃ¡rio cadastrado com sucesso!")
           Util.aguarde(3000)
 
         //retorna para o menu inicio
@@ -49,13 +50,15 @@ programa {
       escreva("|            CLIENTES  CADASTRO           |\n")
       escreva(".******************************************.\n")  
 
-      escreva("N° 01 - ", nome_cliente, " - idade: ", idade, "\n")
+      escreva("NÂ° 01 - ", nome_cliente, " - idade: ", idade, "\n")
 
-      escreva("********************************************\n")
+      escreva("********************************************\n\n")
       Util.aguarde(5000) //aguarde 05 segundos
       inicio()
       pare
       }
+
+
 
 
      }

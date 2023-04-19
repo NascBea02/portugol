@@ -1,0 +1,22 @@
+programa {
+
+  inteiro metros, resultado
+
+  funcao inicio() {
+
+    escreva("Informe quantos metros a parede que a lesma esta subindo tem: ") 
+    leia(metros)
+
+    resultado = metros -2 
+    
+    se (metros < 3)
+    {
+      resultado = 1
+    }
+
+
+    escreva("A lesma demorou ", resultado," dias para chegar ao topo do muro")
+    
+  }
+
+}
